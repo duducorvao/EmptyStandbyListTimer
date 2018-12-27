@@ -37,7 +37,7 @@
             this.ShouldExecuteImmediatelyValue = new System.Windows.Forms.CheckBox();
             this.flowBottomPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.TimerProgressBar = new System.Windows.Forms.ProgressBar();
             this.ButtonsFlowPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.StartTimerBtn = new System.Windows.Forms.Button();
             this.StopTimerBtn = new System.Windows.Forms.Button();
@@ -111,7 +111,7 @@
             0,
             0});
             this.TimeIntervalValue.Minimum = new decimal(new int[] {
-            60,
+            5,
             0,
             0,
             0});
@@ -160,7 +160,7 @@
             // 
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.progressBar1, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.TimerProgressBar, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.ButtonsFlowPanel, 0, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
@@ -180,13 +180,13 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(533, 60);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // progressBar1
+            // TimerProgressBar
             // 
-            this.progressBar1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.progressBar1.Location = new System.Drawing.Point(3, 3);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(527, 19);
-            this.progressBar1.TabIndex = 0;
+            this.TimerProgressBar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TimerProgressBar.Location = new System.Drawing.Point(3, 3);
+            this.TimerProgressBar.Name = "TimerProgressBar";
+            this.TimerProgressBar.Size = new System.Drawing.Size(527, 19);
+            this.TimerProgressBar.TabIndex = 0;
             // 
             // ButtonsFlowPanel
             // 
@@ -256,7 +256,7 @@
         private System.Windows.Forms.CheckBox ShouldExecuteImmediatelyValue;
         private System.Windows.Forms.NumericUpDown TimeIntervalValue;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.ProgressBar TimerProgressBar;
         private System.Windows.Forms.FlowLayoutPanel ButtonsFlowPanel;
         private System.Windows.Forms.Button StartTimerBtn;
         private System.Windows.Forms.Button StopTimerBtn;
