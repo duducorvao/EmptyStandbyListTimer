@@ -111,7 +111,7 @@
             0,
             0});
             this.TimeIntervalValue.Minimum = new decimal(new int[] {
-            5,
+            60,
             0,
             0,
             0});

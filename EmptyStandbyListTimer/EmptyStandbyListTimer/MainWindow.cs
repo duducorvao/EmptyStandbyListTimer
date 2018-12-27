@@ -112,7 +112,7 @@ namespace EmptyStandbyListTimer
         {
             this.EmptyStandbyListProcess = new Process();
             EmptyStandbyListProcess.StartInfo.UseShellExecute = false;
-            EmptyStandbyListProcess.StartInfo.FileName = $"{this.FilePath}\\{EmptyStandbyListExeName}";
+            EmptyStandbyListProcess.StartInfo.FileName = this.FilePath + EmptyStandbyListExeName;
             EmptyStandbyListProcess.StartInfo.CreateNoWindow = true;
         }
 
